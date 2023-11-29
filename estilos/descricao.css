@@ -1,0 +1,39 @@
+@import 'style.css';
+
+:root {
+    --cor-titulo : rgba(94, 189, 206, 0.74);
+    --cor-paragrafo : rgba(255, 255, 255, 0.651);
+}
+
+.conteudo {
+    width: 900px;
+    line-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Bangers', cursive;
+}
+
+h1 {
+    font-size: 64px;
+    color: var(--cor-titulo);
+}
+
+h2{
+    font-size: 50px;
+    color: var(--cor-titulo);
+}
+
+p{
+    font-size: 30px;
+    color: var(--cor-paragrafo);
+}
+
+.foto-personagem {
+    margin-top: 30px;
+    width: 400px;
+}
+
+span {
+    color: #e9cf3e91;
+}
